@@ -1,0 +1,35 @@
+{
+    "owner_info": {
+        "username": "skuller.",
+        "user_id": "548548565404876832"
+    },
+    "admin_ids": [
+        ""
+    ],
+    "mod_ids": [
+        "753550442046160966"
+    ],
+    "bot_status": {
+        "text": "your mom moaning",
+        "activity": "l",
+        "prefix": "c?"
+    },
+    "links": {
+        "discord_invite": "https://discord.gg/Mxvz53gdka",
+        "youtube": "https://youtube.com/@skuller",
+        "pfp": "https://cdn.discordapp.com/avatars/548548565404876832/c02cb7181b99c28ca2bfdddd82a8b37f.webp?size=1024&format=webp&width=576&height=576",
+        "submissions_channel": "1341926100334415905",
+        "anime_kun_guild_id": "1126532363933995140",
+        "anime_kun_channel": "1126532365649453113",
+        "otaku_guild_id": "1223224604668067963",
+        "otaku_channel_id": "1343319483019956344"
+    },
+    "load_success": "🔧[Config] Configuration files loaded successfully.",
+    "enabledCommands": {
+        "ping": true,
+        "submit-anime": true,
+        "picks": true,
+        "submit-manhwa": true,
+        "submit-manga": true
+    }
+}

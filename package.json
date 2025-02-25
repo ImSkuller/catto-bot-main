@@ -1,0 +1,22 @@
+{
+  "name": "catto-bot",
+  "version": "1.0.0",
+  "description": "Catto discord bot, made using discord.js v14",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "pm2 start src/app.js --name catto-bot"
+  },
+  "author": "skuller.io",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^2.4.3",
+    "chalk": "^4.1.2",
+    "discord-api-types": "^0.37.119",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "fs": "^0.0.1-security",
+    "nodemon": "^3.1.9",
+    "path": "^0.12.7",
+    "pm2": "^5.4.3"
+  }
+}
