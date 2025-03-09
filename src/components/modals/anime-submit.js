@@ -87,7 +87,7 @@ module.exports = {
         var animeLink = interaction.fields.getTextInputValue("watchLink");
         let animeGenre = interaction.fields.getTextInputValue("animeGenre")
 
-        const anime_id = animeName.replace(/\s+/g, "_");
+        const anime_id = animeName.replace(/\s+/g, "-");
 
         if (!animeLink.startsWith("https://animekun.top" || "https://hianime.to/")){
             animeLink = `https://animekun.top/search?q=${anime_id}`
