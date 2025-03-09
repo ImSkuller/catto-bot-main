@@ -84,7 +84,7 @@ module.exports = {
         var manhwaLink = interaction.fields.getTextInputValue("readLink");
         var manhwaGenre = interaction.fields.getTextInputValue("manhwaGenre");
 
-        const manhwa_id = manhwaName.replace(/\s+/g, "_");
+        const manhwa_id = manhwaName.replace(/\s+/g, "-");
 
         if (!manhwaGenre) {
             manhwaGenre = `random`;
