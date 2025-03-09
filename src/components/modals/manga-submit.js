@@ -84,7 +84,7 @@ module.exports = {
         var mangaLink = interaction.fields.getTextInputValue("readLink");
         var animeGenre = interaction.fields.getTextInputValue("mangaGenre")
 
-        const manga_id = mangaName.replace(/\s+/g, "_");
+        const manga_id = mangaName.replace(/\s+/g, "-");
 
         if (!mangaGenre) {
             animeGenre = "random";
